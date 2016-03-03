@@ -54,7 +54,7 @@ def Path_Folder(directory):
     """
     if not os.path.exists(directory):
         os.makedirs(directory)
-
+  
 # Creating new folder
 Output_dir = os.getcwd()+'/photometric_nights/output'
 Path_Folder(Output_dir)
