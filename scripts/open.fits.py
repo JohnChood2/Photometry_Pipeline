@@ -10,4 +10,4 @@ fermi = fits.open('3C454.3_604800.lc')
 
 data = fermi[1].data
 
-print data   
+print data
