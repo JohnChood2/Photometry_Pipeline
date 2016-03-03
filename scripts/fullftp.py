@@ -56,12 +56,13 @@ def Path_Folder(directory):
         os.makedirs(directory)
   
 # Creating new folder
-Output_dir = os.getcwd()+'/photometric_nights/output'
+MainDir = '/Users/johnhood/desktop/research_data'
+Output_dir = MainDir+'/photometric_nights/output'
 Path_Folder(Output_dir)
 # Output file
 Out_file = '{0}/full_list.txt'.format(Output_dir)
 # Files in the directory
-Data_Dir = os.getcwd()+'/photometric_nights/'
+Data_Dir = MainDir+'/photometric_nights/'
 Path_Folder(Data_Dir)
 # Get list of files in Data_Dir with 'extension'
 file_ext = '.fits'
